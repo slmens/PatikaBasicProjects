@@ -27,12 +27,12 @@ public class NotOrtalamasi {
 
         System.out.println("Teşekkür ederim. Puanınız hesaplanıyor lütfen bekleyiniz...");
         sonuc = (matematik + fizik + tarih + turkce + kimya + muzik) / 6;
-        String sonucYazısı = String.format("Not ortalamanız : %1$s", sonuc);
+        String sonucYazisi = String.format("Not ortalamanız : %1$s", sonuc);
 
         Thread.sleep(2000);
 
 
-        System.out.print(sonucYazısı);
+        System.out.print(sonucYazisi);
 
 
 
