@@ -33,6 +33,7 @@ public class NotOrtalamasi {
 
 
         System.out.print(sonucYazisi);
+        System.out.println(sonuc > 60 ? "Geçtiniz!":"Kaldınız!");
 
 
 
