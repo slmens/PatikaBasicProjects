@@ -2,7 +2,7 @@ package Week1;
 import java.util.Scanner;
 // iki dik kenarı al hipotenüsü bul
 // bunları kullanarak alanı bul
-public class Hipotenüs {
+public class Hipotenus {
     public static void main(String[] args) {
         double alan,c,a,b;
 
