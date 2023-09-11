@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class DaireDilimiAlanı {
+public class DaireDilimiAlani {
     public static void main(String[] args) throws InterruptedException {
         double pi=3.14,r,alfa,sonuc;
         Scanner input = new Scanner(System.in);
