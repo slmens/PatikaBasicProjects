@@ -1,7 +1,7 @@
 package Week1;
 import java.util.Scanner;
 
-public class NotOrtalaması {
+public class NotOrtalamasi {
     public static void main(String[] args) throws InterruptedException {
         int matematik,fizik,tarih,turkce,kimya,muzik,sonuc;
 
