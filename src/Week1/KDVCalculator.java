@@ -25,10 +25,13 @@ public class KDVCalculator {
             kdvDahilFiyat = hesaplanacakTutar + KDVTutari;
         }
 
-        System.out.println(String.format("KDV oranınız: %1$s",KDV));
-        System.out.println(String.format("KDV'siz tutar: %1$s",hesaplanacakTutar));
-        System.out.println(String.format("KDV Dahil Fiyat: %1$s",kdvDahilFiyat));
-        System.out.println(String.format("KDV tutarı: %1$s",KDVTutari));
+        System.out.printf("KDV oranınız: %1$s%n",KDV);
+        System.out.println();
+        System.out.printf("KDV'siz tutar: %1$s%n",hesaplanacakTutar);
+        System.out.println();
+        System.out.printf("KDV Dahil Fiyat: %1$s%n",kdvDahilFiyat);
+        System.out.println();
+        System.out.printf("KDV tutarı: %1$s%n",KDVTutari);
 
     }
 }
