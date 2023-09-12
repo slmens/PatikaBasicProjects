@@ -19,33 +19,26 @@ public class SwitchCalculator {
         System.out.print("İkinci sayı:");
         sayi2 = input.nextDouble();
 
-        switch (secim){
-            case 1:
-                sonuc = sayi1 + sayi2;
-                break;
-            case 2:
-                sonuc = sayi1 - sayi2;
-                break;
-            case 3:
-                sonuc = sayi1 * sayi2;
-                break;
-            case 4:
-                if (sayi2 == 0){
+        switch (secim) {
+            case 1 -> sonuc = sayi1 + sayi2;
+            case 2 -> sonuc = sayi1 - sayi2;
+            case 3 -> sonuc = sayi1 * sayi2;
+            case 4 -> {
+                if (sayi2 == 0) {
                     System.out.print("Bölen sayı 0 olamaz. Lütfen yeni bir sayı verin: ");
                     sayi2 = input.nextDouble();
-                    if (sayi2 == 0){
+                    if (sayi2 == 0) {
                         System.out.println("Bölen sayı 0 olamaz. Program kapatılıyor.");
                         System.exit(0);
-                    }else {
+                    } else {
                         sonuc = sayi1 / sayi2;
-                        break;
                     }
-                }else {
+                } else {
                     sonuc = sayi1 / sayi2;
-                    break;
                 }
+            }
         }
 
-        System.out.println(String.format("Sonuç: %s",formatter.format(sonuc)));
+        System.out.printf("Sonuç: %s%n",formatter.format(sonuc));
     }
 }
