@@ -8,7 +8,7 @@ public class SınıfGecmeHesaplama {
         Scanner input = new Scanner(System.in);
 
         double total = 0,average;
-        int mat=0,turkce=0,fizik=0,kimya=0,muzik = 0,count = 0;
+        int mat,turkce,fizik,kimya,muzik,count = 0;
         int[] intArray = new int[5];
 
         System.out.print("Müzik Notunuz: ");
