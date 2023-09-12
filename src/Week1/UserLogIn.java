@@ -68,7 +68,6 @@ public class UserLogIn {
                        System.exit(0);
                    }
                    System.out.println("Girmiş olduğunuz bilgiler yanlış. Lütfen tekrar deneyin");
-                   continue;
                }else {
                    System.out.println("Sisteme giriş yapıldı.");
                    System.exit(0);
