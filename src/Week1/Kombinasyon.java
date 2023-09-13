@@ -8,7 +8,7 @@ public class Kombinasyon {
         int n,r,nFaktoriyel = 1,rFaktoriyel = 1,nEksiRFaktoriyel = 1;
         double kombinasyon;
 
-        System.outKo.print("N (eleman sayısı) sayısını veriniz: ");
+        System.out.print("N (eleman sayısı) sayısını veriniz: ");
         n = input.nextInt();
         System.out.print("R (oluşturulacak grupların sayısı) sayısını veriniz: ");
         r = input.nextInt();
