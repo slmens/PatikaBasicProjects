@@ -12,6 +12,7 @@ public class TryCatch {
             System.out.println("Girdiğiniz indexteki sayı: " + number);
 
         }catch (ArrayIndexOutOfBoundsException e){
+            e.getMessage();
             System.out.println("Lütfen 0 ila 9 arası bir index değeri giriniz!");
         }
     }
