@@ -17,6 +17,7 @@ public class WordCount {
 
         // We separate the text we receive from the user from the spaces in between words and collect it in an array.
         // In this way, we can store all the words in the text separately.
+        text = text.toUpperCase();
         splittedText = text.split(" ");
 
 
