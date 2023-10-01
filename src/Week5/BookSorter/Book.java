@@ -43,6 +43,8 @@ public class Book implements Comparable<Book>{
         this.publishDate = publishDate;
     }
 
+
+    // I sort books by A-Z in this compareTo method
     @Override
     public int compareTo(Book o) {
         return this.getBookName().charAt(0) - o.getBookName().charAt(0);

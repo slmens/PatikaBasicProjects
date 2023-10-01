@@ -1,12 +1,12 @@
 package Week5.BookSorter;
 
-import java.util.Collections;
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
         TreeSet<Book> booksByAZ = new TreeSet<>();
-        TreeSet<Book> booksByPage = new TreeSet<>(new PageOrderComparable());
+        // The tree set below has different sorting because of the PageOrderComparator class
+        TreeSet<Book> booksByPage = new TreeSet<>(new PageOrderCompator());
 
 
         booksByAZ.add(new Book("FirstBook", "Dwayne", 50,2000));
