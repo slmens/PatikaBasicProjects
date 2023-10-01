@@ -22,15 +22,15 @@ public class Main {
         booksByPage.add(new Book("FourthBook", "Hanry", 46,1995));
         booksByPage.add(new Book("FifthBook", "Recep", 850,1954));
 
-        for (Book book : booksByAZ){
-            System.out.println(book.getBookName());
+        for (Book bookS : booksByAZ){
+            System.out.println(bookS.getBookName());
         }
 
         System.out.println();
         System.out.println("*******************************");
         System.out.println();
 
-        for (Book book: booksByPage){
+        for (Book book : booksByPage){
             System.out.println(book.getBookPageCount());
         }
 
