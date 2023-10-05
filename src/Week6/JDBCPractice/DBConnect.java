@@ -22,7 +22,7 @@ public class DBConnect {
 
             while (data.next()){
                 System.out.println("##############");
-                System.out.println("Employee ID: " + data.getInt("employee_id") + ", Employee Name: " + data.getString("employee_name") + ", Employee Poisition: " + data.getString("employee_position") + ", Employee Salary: " + data.getInt("employee_salary"));
+                System.out.println("Employee ID: " + data.getInt("employee_id") + ", Employee Name: " + data.getString("employee_name") + ", Employee Position: " + data.getString("employee_position") + ", Employee Salary: " + data.getInt("employee_salary"));
             }
 
 
