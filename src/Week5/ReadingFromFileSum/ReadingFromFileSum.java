@@ -1,6 +1,5 @@
 package Week5.ReadingFromFileSum;
 import java.io.*;
-import java.nio.file.*;
 
 public class ReadingFromFileSum {
     static Integer total = 0;
