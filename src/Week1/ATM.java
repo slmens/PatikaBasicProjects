@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class ATM {
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
+//@
 
         String userName, password;
         int kalanHak = 3;
